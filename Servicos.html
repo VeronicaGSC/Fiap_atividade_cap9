@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços contratados</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+        .header {
+            background-color: #00a9ce;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 18px;
+            position: relative;
+        }
+        .header .menu-icon, .header .profile-icon {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 24px;
+            cursor: pointer;
+        }
+        .header .menu-icon {
+            left: 15px;
+        }
+        .header .profile-icon {
+            right: 15px;
+        }
+        .table {
+            width: 100%;
+            margin: 20px 0;
+        }
+        .table th, .table td {
+            text-align: center;
+            vertical-align: middle;
+        }
+        .back-button {
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            color: grey;
+            text-decoration: none;
+        }
+        .back-button i {
+            margin-right: 5px;
+        }
+        .add-service-btn {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            background-color: #d3d3d3;
+            color: black;
+            text-align: center;
+            text-decoration: none;
+            font-size: 18px;
+            border: 1px solid #000;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <i class="fas fa-bars menu-icon"></i>
+        Serviços contratados
+        <i class="fas fa-briefcase profile-icon"></i>
+    </div>
+    
+    <div class="container">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>ITEM</th>
+                    <th>VALOR MÊS</th>
+                    <th>INFO</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Seguro Cartão</td>
+                    <td>R$ 10,00</td>
+                    <td><i class="fas fa-info-circle"></i></td>
+                </tr>
+                <tr>
+                    <td>LIS Conta</td>
+                    <td>R$ 3,50</td>
+                    <td><i class="fas fa-info-circle"></i></td>
+                </tr>
+                <tr>
+                    <td>Cesta de Produtos</td>
+                    <td>R$ 5,00</td>
+                    <td><i class="fas fa-info-circle"></i></td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <a href="#" class="back-button">
+            <i class="fas fa-arrow-left"></i> VOLTAR
+        </a>
+        
+        <a href="#" class="add-service-btn">Adicionar serviço</a>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
