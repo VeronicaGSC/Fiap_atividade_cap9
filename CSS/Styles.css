@@ -1,0 +1,37 @@
+#sidebar {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+}
+
+#content {
+    margin-left: 250px;
+    width: calc(100% - 250px);
+}
+
+#sidebar .components {
+    padding: 20px 0;
+}
+
+#sidebar ul li {
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+}
+
+#sidebar ul li a:hover {
+    background: #17a2b8;
+    color: #fff;
+}
+
+.profile-icon {
+    font-size: 10rem;
+    color: #17a2b8;
+}
